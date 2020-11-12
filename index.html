@@ -41,19 +41,6 @@
     <div class="video-background">
         <div class="video-foreground">
           <iframe src="https://www.youtube.com/embed/Sc9I3fecBqs?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Sc9I3fecBqs" frameborder="0" allowfullscreen></iframe>
-            <script>
-                $('button').on('click', function () {
-                    var iframe = $(this).prev('iframe')[0];
-                
-                    if ($(this).hasClass('mute')) {
-                        $(this).removeClass('mute').text('Mute');
-                        iframe.contentWindow.postMessage('{"method":"setVolume", "value":1}', '*');
-                    } else {
-                        $(this).addClass('mute').text('Unmute');
-                        iframe.contentWindow.postMessage('{"method":"setVolume", "value":0}', '*');
-                    }
-                });
-            </script>
         </div>
     </div>
     <div class="footer">
