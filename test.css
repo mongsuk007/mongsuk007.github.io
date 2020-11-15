@@ -2,8 +2,6 @@
 body, html {
   background-image: url('https://media.giphy.com/media/3oKIPlCroSFHV8uoko/giphy.gif');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
   margin: 0;
   font-family: Arial;
@@ -30,7 +28,7 @@ body, html {
 .tabcontent {
   color: white;
   display: none;
-  padding: 100px 20px;
+  padding: 50px 20px;
   height: 100%;
 }
 
@@ -49,6 +47,7 @@ body, html {
 .footer {
   position: fixed;
   left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
   background-color: #7FFF00;
