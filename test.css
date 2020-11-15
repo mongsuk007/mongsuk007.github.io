@@ -1,5 +1,7 @@
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
+  background-image: url('https://media.giphy.com/media/3oKIPlCroSFHV8uoko/giphy.gif');
+  background-size: cover;
   height: 100%;
   margin: 0;
   font-family: Arial;
