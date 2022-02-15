@@ -9,10 +9,10 @@ $(window).load(function(){
 // HOME BACKGROUND SLIDESHOW
 $(function(){
     jQuery(document).ready(function() {
-		$('body').backstretch(["webp/tm-bg-slide-1.webp",
-				       "webp/tm-bg-slide-2.webp",
-				       "webp/tm-bg-slide-3.webp",
-				       "webp/tm-bg-slide-4.webp"
+		$('body').backstretch(["highres-webp/tm-bg-slide-1.webp",
+				       "highres-webp/tm-bg-slide-2.webp",
+				       "highres-webp/tm-bg-slide-3.webp",
+				       "highres-webp/tm-bg-slide-4.webp"
 	 			], 	{duration: 3200, fade: 1300});
 		});
 })
